@@ -11,7 +11,6 @@ b = 1
 
 while b < 4000000
   b, a = a + b, b
-  puts b
   total_even += b if b % 2 == 0
 end
 
